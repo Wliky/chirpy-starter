@@ -1,0 +1,52 @@
+---
+title: Cloudflare实现反代
+description: >-
+  通过Cloudflare Workers实现反代
+author: Wliky
+date: 2025-09-20 17:20:00 +0800
+categories: [Blogging, Tutorial]
+tags: [getting started]
+pin: false
+media_subpath: '/posts/deploy-blog'
+---
+
+### 通过Cloudflare Workers实现反代
+
+> **请先准备好**
+> 
+> + Cloudflare 帐户
+> + Cloudflare 注册/管理的域名
+
+### Cloudflare
+
+- 前往 [dash.cloudflare.com](https://dash.cloudflare.com/)
+- 转到 Workers & Pages
+- 单击创建Workers
+- 从 Hello World! 开始
+- 部署
+-编辑代码
+```
+addEventListener(
+  "fetch",event => {
+     let url=new URL(event.request.url);
+     url.hostname="www.skyqian.com";  //你需要反代的域名
+     let request=new Request(url,event.request);
+     event. respondWith(
+       fetch(request)
+     )
+  }
+)
+```
+
+如果成功，您将获得一个生成域名，例如 xxx.pages.dev 。
+works.dev的域名国内已经无法访问了，需要通过绑定自定义域名。
+
+#### 自定义域
+- 绑定域名至CF管理
+- 转到设置自定义域
+- 输入你的域名或者子域名点击继续
+- 检查信息并点击激活域名
+
+这将为您的名称创建一条 CNAME 记录，以生成之前的名称。
+
+至此，您可以使用自定义域名访问反代的地址了。
