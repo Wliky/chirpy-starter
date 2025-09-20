@@ -8,14 +8,15 @@ order: 4
 -->
 <h2 align="center">👋 Hey! I'm Wliky</h2>
 
-- 🔭 你好呀！💡
+- 🔭 你好呀
 
-- 🤔 这里是Wliky的博客
+- 💡 这是Wliky的博客
 
 ---
 
 # Tools
 <!-- Languages & Frameworks -->
+
 [![](https://img.shields.io/badge/-Webpack-8dd6f9?style=for-the-badge&logo=webpack&logoColor=white)](https://webpack.js.org/)
 [![](https://img.shields.io/badge/-React-61dafb?style=for-the-badge&logo=react&logoColor=ffffff)](https://reactjs.org/)
 [![](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=ffffff)](https://www.docker.com/)
@@ -42,7 +43,7 @@ order: 4
 
 ---
 
-## Snake
+# Snake
 <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Peter-JXL/Peter-JXL/output/github-contribution-grid-snake-dark.svg">
