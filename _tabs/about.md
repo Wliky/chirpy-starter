@@ -6,21 +6,15 @@ order: 4
 <!-- 
 * @Wliky
 -->
-### Hi there 👋
-<!-- 打字机效果 -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7C7AD&width=435&lines=Live+for+yourself;Not+for+others)](https://git.io/typing-svg)
-<!-- 个人简介 -->
-#### Platform & Tools
-<!-- Moe-counter访问计数 -->
-<a href="https://count.getloli.com/"><img src="https://count.getloli.com/get/@Wliky?theme=rule34" height="100" align="right"></a>
-[![](https://img.shields.io/badge/OS-Arch%20Linux-33aadd?style=for-the-badge&logo=arch-linux&logoColor=ffffff)](https://www.archlinux.org/)
-[![](https://img.shields.io/badge/MacBook-M4%20Pro-292e33?style=for-the-badge&logo=apple&logoColor=ffffff)](https://www.apple.com.cn/macbook-pro/)
-[![](https://img.shields.io/badge/Windows-11-4e9eee?style=for-the-badge&logo=windows&logoColor=ffffff)](https://www.microsoft.com/windows/windows-11)   
-[![](https://img.shields.io/badge/XiaoMi-13-2E77BC?style=for-the-badge&logo=android&logoColor=ffffff)](https://www.mi.com/xiaomi-13)
-[![](https://img.shields.io/badge/iPhone-15%20Pro-999999?style=for-the-badge&logo=apple&logoColor=ffffff)](https://www.apple.com/)   
-[![](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blue?style=for-the-badge&logo=visual-studio-code&logoColor=ffffff)](https://code.visualstudio.com/)
+<h2 align="center">👋 Hey! I'm Wliky</h2>
 
-#### Languages & Frameworks
+- 🔭 你好呀！💡
+
+- 🤔 这里是Wliky的博客
+
+---
+
+# Tools
 [![](https://img.shields.io/badge/-Webpack-8dd6f9?style=for-the-badge&logo=webpack&logoColor=white)](https://webpack.js.org/)
 [![](https://img.shields.io/badge/-React-61dafb?style=for-the-badge&logo=react&logoColor=ffffff)](https://reactjs.org/)
 [![](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=ffffff)](https://www.docker.com/)
@@ -45,16 +39,9 @@ order: 4
 [![](https://img.shields.io/badge/-Nginx-269539?style=for-the-badge&logo=nginx&logoColor=ffffff)](https://nginx.org/)
 [![](https://img.shields.io/badge/-Node.js-43853d?style=for-the-badge&logo=node.js&logoColor=ffffff)](https://nodejs.org/)
 
-<!-- metrics 基础资料 -->
-<!-- <img src="/github-metrics.svg" />
--->
+---
 
-<!-- github-readme-streak-stats 连续提交代码天数记录 -->
-<!-- <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Peter-JXL&theme=light&hide_border=true" />
-  <img src="https://streak-stats.demolab.com/?user=Peter-JXL&theme=dark&hide_border=true" />
-</picture> -->
-
+## Snake
 <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Peter-JXL/Peter-JXL/output/github-contribution-grid-snake-dark.svg">
