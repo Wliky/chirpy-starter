@@ -1,0 +1,20 @@
+<div id="waline"></div>
+<script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+    init({
+        el: '#waline',
+        serverURL: 'https://comment.zwei.de.eu.org',
+        lang: '{{ site.comments.waline.lang }}',
+        dark: '{{ site.comments.waline.dark }}',
+        pageview: {{ site.comments.waline.pageview }},
+        login: 'disable',
+        requiredMeta: ['nick', 'mail'],
+        meta: ['nick', 'mail', 'link'],
+        placeholder: '欢迎评论！昵称和邮箱为必填项~',
+        avatar: 'retro',
+        avatarCDN: 'https://seccdn.libravatar.org/avatar/',
+        avatarForce: false
+    });
+</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" /> 
